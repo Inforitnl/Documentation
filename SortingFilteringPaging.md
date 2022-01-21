@@ -23,7 +23,7 @@ An example using this container model:
 ```
 
 ```curl
-GET /GetPosts
+GET ~/containers
 
 ?sorts=     code,capacity,-lastMaintenanceDate  // sort by code, then capacity, then descendingly by last maintenance date 
 &filters=   capacity>1000, code@=ABCU8880198,   // filter to capacity with more than 1000, and a code that contains the phrase "ABCU8880198"
